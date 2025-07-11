@@ -1,0 +1,36 @@
+body {
+  background-color: #1e1e2f;
+  color: #ffffff;
+  font-family: sans-serif;
+  text-align: center;
+  margin: 0;
+  padding: 40px;
+}
+.container {
+  max-width: 500px;
+  margin: auto;
+  padding: 20px;
+}
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  font-size: 16px;
+}
+.options {
+  margin-bottom: 15px;
+}
+button {
+  padding: 10px 20px;
+  background-color: #4caf50;
+  border: none;
+  color: white;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.note {
+  margin-top: 20px;
+  font-size: 0.9em;
+  color: #ccc;
+}
