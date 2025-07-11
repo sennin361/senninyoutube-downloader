@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: sennin-youtube-downloader
+    env: docker
+    plan: free
+    region: singapore  # または tokyo（日本地域が選択可能な場合）
+    branch: main
+    repo: https://github.com/YOUR_USERNAME/sennin-youtube-downloader
+    dockerfilePath: ./Dockerfile
+    autoDeploy: true
