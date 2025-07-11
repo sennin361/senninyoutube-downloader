@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>仙人YouTubeダウンローダー</title>
+  <link rel="stylesheet" href="/static/style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>🌟 仙人YouTubeダウンローダー</h1>
+    <form method="post">
+      <input type="text" name="url" placeholder="YouTubeのURLを入力" required />
+      <div class="options">
+        <label><input type="radio" name="format" value="mp4" checked> 動画（MP4）</label>
+        <label><input type="radio" name="format" value="mp3"> 音声（MP3）</label>
+      </div>
+      <button type="submit">ダウンロード</button>
+    </form>
+    <p class="note">⚠ 自己責任でご利用ください</p>
+  </div>
+</body>
+</html>
